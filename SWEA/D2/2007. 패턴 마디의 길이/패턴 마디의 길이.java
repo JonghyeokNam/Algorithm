@@ -15,7 +15,7 @@ public class Solution {
             char ch = input.charAt(0);
             int cnt = 1;
 
-            for (int j = 1; j <= 10; j++) {
+            for (int j = 1; j < 30; j++) {
                 if (ch == input.charAt(j)) {
                     Boolean isRepeat = true;
                     for (int k = 0; k < j; k++) {
