@@ -18,7 +18,7 @@ public class Solution {
             for (int j = 1; j <= 10; j++) {
                 if (ch == input.charAt(j)) {
                     Boolean isRepeat = true;
-                    for (int k = 0; k < 30 - j; k++) {
+                    for (int k = 0; k < j; k++) {
                         if (input.charAt(k) != input.charAt(k + j)) {
                             isRepeat = false;
                             break;
